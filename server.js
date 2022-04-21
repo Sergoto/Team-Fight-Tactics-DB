@@ -1,9 +1,14 @@
 const express = require("express");
 const app = express();
+const championController = require('./controllers/championController')
+const itemsController = require("./controllers/itemController")
+const traitsController = require("./controllers/traitController")
 
-app.get("/test", (req, res) => {
-  res.send("I'm working here!");
-});
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+app.use(championController);
+app.use(itemsController);
+app.use(traitsController);
 
 const PORT = process.env.PORT || 4022;
 
