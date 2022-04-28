@@ -5,7 +5,7 @@ const ChampionSchema = new mongoose.Schema({
     cost: Number,
     origins: [String],
     classes: [String],
-    icon: String,
+    img: String,
 });
 
 const Champions = mongoose.model("Champions", ChampionSchema)

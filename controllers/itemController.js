@@ -3,43 +3,44 @@ const express = require("express");
 const Items = require("../models/items");
 const router = express.Router();
 
-//list items
-router.get("/items", (req, res) => {
-  Items.find({})
-    .then((item) => {
-      res.send(item);
-    })
-    .catch(console.error);
+
+
+router.get("/", (req, res) => {
+  Items.find({}).then((items) =>
+    res.render("items/itemIndex", { stuff: items })
+  );
 });
 
-//find item by id
-router.get("/items/:id", (req, res) => {
-  Items.findById(req.params.id)
-    .then((item) => {
-      res.send(item);
-    })
-    .catch(console.error);
+//render new
+router.get("/new", (req, res) => {
+  res.render("items/itemNew");
 });
 
-//create an item
-router.post("/items", (req, res) => {
-  Items.create(req.body)
-    .then((item) => res.redirect("/items"))
-    .catch(console.error);
+//add item
+router.post("/add", (req, res) => {
+  Items.create(req.body).then((item) => res.redirect("/"));
 });
 
-//delete item by id
-router.delete("/items/:id", (req, res) => {
-  Items.findOneAndRemove({ _id: req.params.id })
-    .then((item) => res.redirect("/items"))
-    .catch(console.error);
+//delete item
+router.delete("/:id", (req, res) => {
+  Items.findOneAndRemove({ _id: req.params.id }).then((item) =>
+    res.redirect("/items")
+  );
 });
 
-//update item by id
-router.put("/items/:id", (req, res) => {
-  Items.findOneAndUpdate({ _id: req.params.id }, req.body)
-    .then((item) => res.redirect("/items"))
-    .catch(console.error);
+//edit champ
+router.put("/:id", (req, res) => {
+  Items.findOneAndUpdate({ _id: req.params.id }, req.body).then((item) =>
+    res.redirect("/")
+  );
 });
+
+
+router.get("/:id", (req, res) => {
+  Items.findById(req.params.id).then((item) => {
+    res.render("items/itemEdit", item);
+  });
+});
+
 
 module.exports = router;

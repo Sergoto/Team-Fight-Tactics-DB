@@ -20,7 +20,11 @@
   "homepage": "https://github.com/Sergoto/Team-Fight-Tactics-DB#readme",
   "dependencies": {
     "dotenv": "^16.0.0",
+    "ejs": "^3.1.7",
     "express": "^4.17.3",
+    "express-ejs-layouts": "^2.5.1",
+    "hbs": "^4.2.0",
+    "method-override": "^3.0.0",
     "mongoose": "^6.3.0",
     "nodemon": "^2.0.15"
   }

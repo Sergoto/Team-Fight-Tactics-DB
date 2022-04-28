@@ -1,0 +1,30 @@
+<link rel="stylesheet" type="text/css" href="/public/css/style.css">
+<h1 class="champheader">Team Fight Tactics Items</h1>
+<div class="container">
+
+    <% stuff.forEach(v=> { %>
+        <div class="cards" >
+            <div><img src="<%=v.img %>" height="100" /></div>
+            <div class="font">
+                Item Name: <%=v.name %>
+                <div>Item Effect: <%=v.effect %></div>
+               <div>Unique Item: <%=v.isUnique %></div> 
+               <div>Artifact Item: <%=v.isArtifact %>
+            <br>
+            <br>
+            <a class="button submit font" href="items/<%=v.id%>">Edit</a>
+            <form action="/items/<%=v.id%>?_method=DELETE" method="POST">
+                <input class="button cancel font" type="submit" value="Delete" />
+            </form>
+            </div>
+            </div>
+
+
+        </div>
+        
+
+        <% }) %>
+
+</div>
+
+</div>

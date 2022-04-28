@@ -1,0 +1,15 @@
+<link rel="stylesheet" type="text/css" href="/public/css/style.css" />
+<h1 class="champheader">Team Fight Tactics Items</h1>
+<div class="container">
+  <% stuff.forEach(v=> { %>
+  <div class="cards">
+    <div class="font">Class Name: <%=v.name %></div>
+    <div class="font">Champions in Class: <%= v.champions %></div>
+    <!-- <div class="font">Class Bonus: <%=v.bonus %></div> -->
+    <!-- <div class="font">Class Set Bonus: <%=v.set %></div> -->
+    <div class="font">Class Set Bonus: <%=v.count %></div>
+    <div class="font">Class Set Bonus: <%=v.bonus %></div>
+  </div>
+
+  <% }) %>
+</div>

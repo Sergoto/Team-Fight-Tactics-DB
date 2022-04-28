@@ -4,203 +4,203 @@
     "cost": 4,
     "origins": ["Syndicate"],
     "classes": ["Arcanist"],
-    "icon": "https://i.imgur.com/x7iDoa6.jpg"
+    "img": "https://i.imgur.com/x7iDoa6.jpg"
   },
   {
     "name": "Alistar",
     "cost": 4,
     "origins": ["Hextech"],
     "classes": ["Colossus"],
-    "icon": "https://i.imgur.com/QF1QUXH.jpg"
+    "img": "https://i.imgur.com/QF1QUXH.jpg"
   },
   {
     "name": "Ashe",
     "cost": 2,
     "origins": ["Syndicate"],
     "classes": ["Sniper"],
-    "icon": "https://i.imgur.com/E6vYngS.jpg"
+    "img": "https://i.imgur.com/E6vYngS.jpg"
   },
   {
     "name": "Blitzcrank",
     "cost": 2,
     "origins": ["Scrap"],
     "classes": ["Bodyguard"],
-    "icon": "https://i.imgur.com/7uOlYa4.jpg"
+    "img": "https://i.imgur.com/7uOlYa4.jpg"
   },
   {
     "name": "Braum",
     "cost": 4,
     "origins": ["Syndicate"],
     "classes": ["Bodyguard"],
-    "icon": "https://i.imgur.com/xLbtIhz.jpg"
+    "img": "https://i.imgur.com/xLbtIhz.jpg"
   },
   {
     "name": "Brand",
     "cost": 1,
     "origins": ["Debonair"],
     "classes": ["Arcanist"],
-    "icon": "https://i.imgur.com/yTJa8cc.jpg"
+    "img": "https://i.imgur.com/yTJa8cc.jpg"
   },
   {
     "name": "Caitlyn",
     "cost": 1,
     "origins": ["Enforcer"],
     "classes": ["Sniper"],
-    "icon": "https://i.imgur.com/Htchuw1.jpg"
+    "img": "https://i.imgur.com/Htchuw1.jpg"
   },
   {
     "name": "Corki",
     "cost": 2,
     "origins": ["Yordle"],
     "classes": ["Twinshot"],
-    "icon": "https://i.imgur.com/BEXpJ4U.jpg"
+    "img": "https://i.imgur.com/BEXpJ4U.jpg"
   },
   {
     "name": "Camille",
     "cost": 1,
     "origins": ["Clockwork"],
     "classes": ["Challenger"],
-    "icon": "https://i.imgur.com/pW1rzPX.jpg"
+    "img": "https://i.imgur.com/pW1rzPX.jpg"
   },
   {
     "name": "Chogath",
     "cost": 3,
     "origins": ["Mutant"],
     "classes": ["Bruiser", "Colossus"],
-    "icon": "https://i.imgur.com/fsvdEXb.jpg"
+    "img": "https://i.imgur.com/fsvdEXb.jpg"
   },
   {
     "name": "Darius",
     "cost": 1,
     "origins": ["Syndicate"],
     "classes": ["Bodyguard"],
-    "icon": "https://i.imgur.com/ZJK6Ejj.jpg"
+    "img": "https://i.imgur.com/ZJK6Ejj.jpg"
   },
   {
     "name": "Ezreal",
     "cost": 1,
     "origins": ["Scrap"],
     "classes": ["Innovator"],
-    "icon": "https://i.imgur.com/7PGaskB.jpg"
+    "img": "https://i.imgur.com/7PGaskB.jpg"
   },
   {
     "name": "Illaoi",
     "cost": 1,
     "origins": ["Mercenary"],
     "classes": ["Bruiser"],
-    "icon": "https://i.imgur.com/NHKVQu3.jpg"
+    "img": "https://i.imgur.com/NHKVQu3.jpg"
   },
   {
     "name": "Jarvan IV",
     "cost": 1,
     "origins": ["Hextech"],
     "classes": ["Striker"],
-    "icon": "https://i.imgur.com/HrILnSI.jpg"
+    "img": "https://i.imgur.com/HrILnSI.jpg"
   },
   {
     "name": "Kassadin",
     "cost": 1,
     "origins": ["Mutant"],
     "classes": ["Scholar"],
-    "icon": "https://i.imgur.com/kh98F3X.jpg"
+    "img": "https://i.imgur.com/kh98F3X.jpg"
   },
   {
     "name": "Nocturne",
     "cost": 1,
     "origins": ["Hextech"],
     "classes": ["Assassin"],
-    "icon": "https://i.imgur.com/rW0UxXT.jpg"
+    "img": "https://i.imgur.com/rW0UxXT.jpg"
   },
   {
     "name": "Poppy",
     "cost": 1,
     "origins": ["Yordle"],
     "classes": ["Bodyguard"],
-    "icon": "https://i.imgur.com/SLVINqg.jpg"
+    "img": "https://i.imgur.com/SLVINqg.jpg"
   },
   {
     "name": "Singed",
     "cost": 1,
     "origins": ["Chemtech"],
     "classes": ["Innovator"],
-    "icon": "https://i.imgur.com/TXqHbA2.jpg"
+    "img": "https://i.imgur.com/TXqHbA2.jpg"
   },
   {
     "name": "Twitch",
     "cost": 1,
     "origins": ["Chemtech"],
     "classes": ["Assassin"],
-    "icon": "https://i.imgur.com/DXNE1Ch.jpg"
+    "img": "https://i.imgur.com/DXNE1Ch.jpg"
   },
   {
     "name": "Lulu",
     "cost": 2,
     "origins": ["Yordle"],
     "classes": ["Enchanter"],
-    "icon": "https://i.imgur.com/6PozNly.jpg"
+    "img": "https://i.imgur.com/6PozNly.jpg"
   },
   {
     "name": "Quinn",
     "cost": 2,
     "origins": ["Mercenary"],
     "classes": ["Challenger"],
-    "icon": "https://i.imgur.com/DcUUaRx.jpg"
+    "img": "https://i.imgur.com/DcUUaRx.jpg"
   },
   {
     "name": "RekSai",
     "cost": 2,
     "origins": ["Mutant"],
     "classes": ["Bruiser", "Striker"],
-    "icon": "https://i.imgur.com/i5E58zp.jpg"
+    "img": "https://i.imgur.com/i5E58zp.jpg"
   },
   {
     "name": "Sejuani",
     "cost": 2,
     "origins": ["Enforcer", "Hextech"],
     "classes": ["Bruiser"],
-    "icon": "https://i.imgur.com/cdkwdRg.jpg"
+    "img": "https://i.imgur.com/cdkwdRg.jpg"
   },
   {
     "name": "Swain",
     "cost": 2,
     "origins": ["Hextech"],
     "classes": ["Arcanist"],
-    "icon": "https://i.imgur.com/7qwZJVD.jpg"
+    "img": "https://i.imgur.com/7qwZJVD.jpg"
   },
   {
     "name": "Syndra",
     "cost": 2,
     "origins": ["Debonair"],
     "classes": ["Scholar"],
-    "icon": "https://i.imgur.com/RJ9T5UW.jpg"
+    "img": "https://i.imgur.com/RJ9T5UW.jpg"
   },
   {
     "name": "Talon",
     "cost": 2,
     "origins": ["Debonair"],
     "classes": ["Assassin"],
-    "icon": "https://i.imgur.com/3uRAvX5.jpg"
+    "img": "https://i.imgur.com/3uRAvX5.jpg"
   },
   {
     "name": "Warwick",
     "cost": 2,
     "origins": ["Chemtech"],
     "classes": ["Challenger"],
-    "icon": "https://i.imgur.com/5aOSovN.jpg"
+    "img": "https://i.imgur.com/5aOSovN.jpg"
   },
   {
     "name": "Zilean",
     "cost": 2,
     "origins": ["Clockwork"],
     "classes": ["Innovator"],
-    "icon": "https://i.imgur.com/T4HGBDl.jpg"
+    "img": "https://i.imgur.com/T4HGBDl.jpg"
   },
   {
     "name": "Zyra",
     "cost": 2,
     "origins": ["Syndicate"],
     "classes": ["Scholar"],
-    "icon": "https://i.imgur.com/NKDqRx5.jpg"
+    "img": "https://i.imgur.com/NKDqRx5.jpg"
   },
 
   {
@@ -208,209 +208,209 @@
     "cost": 3,
     "origins": ["Mercenary"],
     "classes": ["Twinshot"],
-    "icon": "https://i.imgur.com/hukXyeG.jpg"
+    "img": "https://i.imgur.com/hukXyeG.jpg"
   },
   {
     "name": "Gnar",
     "cost": 3,
     "origins": ["Socialite", "Yordle"],
     "classes": ["Striker"],
-    "icon": "https://i.imgur.com/dd2qVnP.jpg"
+    "img": "https://i.imgur.com/dd2qVnP.jpg"
   },
   {
     "name": "Leona",
     "cost": 3,
     "origins": ["Debonair"],
     "classes": ["Bodyguard"],
-    "icon": "https://i.imgur.com/CjWbwpM.jpg"
+    "img": "https://i.imgur.com/CjWbwpM.jpg"
   },
   {
     "name": "Lucian",
     "cost": 3,
     "origins": ["Hextech"],
     "classes": ["Twinshot"],
-    "icon": "https://i.imgur.com/dQpQrYl.jpg"
+    "img": "https://i.imgur.com/dQpQrYl.jpg"
   },
   {
     "name": "Malzahar",
     "cost": 3,
     "origins": ["Mutant"],
     "classes": ["Arcanist"],
-    "icon": "https://i.imgur.com/X0pCsz4.jpg"
+    "img": "https://i.imgur.com/X0pCsz4.jpg"
   },
   {
     "name": "Miss Fortune",
     "cost": 3,
     "origins": ["Mercenary"],
     "classes": ["Sniper"],
-    "icon": "https://i.imgur.com/ifef8iq.jpg"
+    "img": "https://i.imgur.com/ifef8iq.jpg"
   },
   {
     "name": "Morgana",
     "cost": 3,
     "origins": ["Syndicate"],
     "classes": ["Enchanter"],
-    "icon": "https://i.imgur.com/9ITVfu4.jpg"
+    "img": "https://i.imgur.com/9ITVfu4.jpg"
   },
   {
     "name": "Senna",
     "cost": 3,
     "origins": ["Socialite"],
     "classes": ["Enchanter"],
-    "icon": "https://i.imgur.com/9B9shL3.jpg"
+    "img": "https://i.imgur.com/9B9shL3.jpg"
   },
   {
     "name": "Tryndamere",
     "cost": 3,
     "origins": ["Chemtech"],
     "classes": ["Challenger"],
-    "icon": "https://i.imgur.com/zvkDoKR.jpg"
+    "img": "https://i.imgur.com/zvkDoKR.jpg"
   },
   {
     "name": "Vex",
     "cost": 3,
     "origins": ["Yordle"],
     "classes": ["Arcanist"],
-    "icon": "https://i.imgur.com/nvMZwXK.jpg"
+    "img": "https://i.imgur.com/nvMZwXK.jpg"
   },
   {
     "name": "Zac",
     "cost": 3,
     "origins": ["Chemtech"],
     "classes": ["Bruiser"],
-    "icon": "https://i.imgur.com/GLquF8J.jpg"
+    "img": "https://i.imgur.com/GLquF8J.jpg"
   },
   {
     "name": "Draven",
     "cost": 4,
     "origins": ["Debonair"],
     "classes": ["Challenger"],
-    "icon": "https://i.imgur.com/Lh0HIYi.jpg"
+    "img": "https://i.imgur.com/Lh0HIYi.jpg"
   },
   {
     "name": "Irelia",
     "cost": 4,
     "origins": ["Scrap"],
     "classes": ["Striker"],
-    "icon": "https://i.imgur.com/ZfqcWK1.jpg"
+    "img": "https://i.imgur.com/ZfqcWK1.jpg"
   },
   {
     "name": "Jhin",
     "cost": 4,
     "origins": ["Clockwork"],
     "classes": ["Sniper", "Striker"],
-    "icon": "https://i.imgur.com/y79lqwz.jpg"
+    "img": "https://i.imgur.com/y79lqwz.jpg"
   },
   {
     "name": "Khazix",
     "cost": 4,
     "origins": ["Mutant"],
     "classes": ["Assassin"],
-    "icon": "https://i.imgur.com/jkUak4p.jpg"
+    "img": "https://i.imgur.com/jkUak4p.jpg"
   },
   {
     "name": "Orianna",
     "cost": 4,
     "origins": ["Clockwork"],
     "classes": ["Enchanter"],
-    "icon": "https://i.imgur.com/Wt9Kz9h.jpg"
+    "img": "https://i.imgur.com/Wt9Kz9h.jpg"
   },
   {
     "name": "Renata Glasc",
     "cost": 4,
     "origins": ["Chemtech"],
     "classes": ["Scholar"],
-    "icon": "https://i.imgur.com/XLJ1Gnz.jpg"
+    "img": "https://i.imgur.com/XLJ1Gnz.jpg"
   },
   {
     "name": "Seraphine",
     "cost": 4,
     "origins": ["Socialite"],
     "classes": ["Innovator"],
-    "icon": "https://i.imgur.com/gvkzYPX.jpg"
+    "img": "https://i.imgur.com/gvkzYPX.jpg"
   },
   {
     "name": "Sivir",
     "cost": 4,
     "origins": ["Hextech"],
     "classes": ["Striker"],
-    "icon": "https://i.imgur.com/PNCbql2.jpg"
+    "img": "https://i.imgur.com/PNCbql2.jpg"
   },
   {
     "name": "Galio",
     "cost": 5,
     "origins": ["Socialite"],
     "classes": ["Bodyguard", "Colossus"],
-    "icon": "https://i.imgur.com/P0XTFyx.jpg"
+    "img": "https://i.imgur.com/P0XTFyx.jpg"
   },
   {
     "name": "Jayce",
     "cost": 5,
     "origins": ["Enforcer"],
     "classes": ["Innovator", "Transformer"],
-    "icon": "https://i.imgur.com/gHCQ9tt.jpg"
+    "img": "https://i.imgur.com/gHCQ9tt.jpg"
   },
   {
     "name": "Jinx",
     "cost": 5,
     "origins": ["Rival", "Scrap"],
     "classes": ["Twinshot"],
-    "icon": "https://i.imgur.com/fK1XE5q.jpg"
+    "img": "https://i.imgur.com/fK1XE5q.jpg"
   },
   {
     "name": "Kaisa",
     "cost": 5,
     "origins": ["Mutant"],
     "classes": ["Challenger"],
-    "icon": "https://i.imgur.com/oiDeQaF.jpg"
+    "img": "https://i.imgur.com/oiDeQaF.jpg"
   },
   {
     "name": "Silco",
     "cost": 5,
     "origins": ["Mastermind"],
     "classes": ["Scholar"],
-    "icon": "https://i.imgur.com/HfsHn24.jpg"
+    "img": "https://i.imgur.com/HfsHn24.jpg"
   },
   {
     "name": "Tahm Kench",
     "cost": 5,
     "origins": ["Glutton", "Mercenary"],
     "classes": ["Bruiser"],
-    "icon": "https://i.imgur.com/B2j0CH0.jpg"
+    "img": "https://i.imgur.com/B2j0CH0.jpg"
   },
   {
     "name": "Veigar",
     "cost": 5,
     "origins": ["Yordle-Lord"],
     "classes": [],
-    "icon": "https://i.imgur.com/vIXHyPf.jpg"
+    "img": "https://i.imgur.com/vIXHyPf.jpg"
   },
   {
     "name": "Vi",
     "cost": 4,
     "origins": ["Enforcer", "Rival"],
     "classes": ["Bruiser"],
-    "icon": "https://i.imgur.com/Ay3cnbQ.jpg"
+    "img": "https://i.imgur.com/Ay3cnbQ.jpg"
   },
   {
     "name": "Viktor",
     "cost": 5,
     "origins": ["Chemtech"],
     "classes": ["Arcanist"],
-    "icon": "https://i.imgur.com/sL7QkLy.jpg"
+    "img": "https://i.imgur.com/sL7QkLy.jpg"
   },
   {
     "name": "Zeri",
     "cost": 5,
     "origins": ["Debonair"],
     "classes": ["Sniper"],
-    "icon": "https://i.imgur.com/xIOPkbW.jpg"
+    "img": "https://i.imgur.com/xIOPkbW.jpg"
   },
   {
     "name": "Ziggs",
     "cost": 1,
     "origins": ["Scrap", "Yordle"],
     "classes": ["Arcanist"],
-    "icon": "https://i.imgur.com/l4FT7rN.jpg"
+    "img": "https://i.imgur.com/l4FT7rN.jpg"
   }
 ]

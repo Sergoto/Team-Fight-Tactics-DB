@@ -2,13 +2,7 @@
   {
     "name": "Arcanist",
     "champions": [
-      "Ahri",
-      "Brand",
-      "Malzahar",
-      "Swain",
-      "Vex",
-      "Viktor",
-      "Ziggs"
+      "Ahri", "Brand", "Malzahar", "Swain", "Vex", "Viktor", "Ziggs"
     ],
     "bonus": "Arcanists increase the Ability Power of your team.",
     "set": [

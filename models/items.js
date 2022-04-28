@@ -3,7 +3,7 @@ const mongoose = require('../db/connection')
 
 const ItemsSchema = new mongoose.Schema({
     name: String,
-    icon: String,
+    img: String,
     effect: String,
     isUnique: Boolean,
     isArtifact: Boolean
