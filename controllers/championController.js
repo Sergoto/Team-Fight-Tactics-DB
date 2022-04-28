@@ -16,7 +16,7 @@ router.get("/new", (req, res) => {
 
 //add champ
 router.post("/add", (req, res) => {
-  Champions.create(req.body).then((champ) => res.redirect("/"));
+  Champions.create(req.body).then((champ) => res.redirect("/champions"));
 });
 
 //delete champ
@@ -29,7 +29,7 @@ router.delete("/:id", (req, res) => {
 //edit champ
 router.put("/:id", (req, res) => {
   Champions.findOneAndUpdate({ _id: req.params.id }, req.body).then((champ) =>
-    res.redirect("/")
+    res.redirect("/champions")
   );
 });
 

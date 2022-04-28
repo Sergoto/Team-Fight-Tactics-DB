@@ -18,7 +18,7 @@ router.get("/new", (req, res) => {
 
 //add item
 router.post("/add", (req, res) => {
-  Items.create(req.body).then((item) => res.redirect("/"));
+  Items.create(req.body).then((item) => res.redirect("/items"));
 });
 
 //delete item
@@ -31,7 +31,7 @@ router.delete("/:id", (req, res) => {
 //edit champ
 router.put("/:id", (req, res) => {
   Items.findOneAndUpdate({ _id: req.params.id }, req.body).then((item) =>
-    res.redirect("/")
+    res.redirect("/items")
   );
 });
 
