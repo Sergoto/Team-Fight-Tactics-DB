@@ -5,20 +5,16 @@ const router = express.Router();
 
 
 
-
+//list all
 router.get("/", (req, res) => {
   Traits.find({}).then((trait) =>
-    res.render("traits/traitsIndex", { stuff: trait })
+    res.render("traits/traitsIndex", { data: trait })
   );
 });
 
-//find all traits
-router.get("/", (req, res) => {
-    Traits.find({})
-        .then((trait) => {
-            res.send(trait)
-        })
-        .catch(console.error);
+//render new
+router.get("/new", (req, res) => {
+  res.render("traits/traitsNew").catch(console.error);
 });
 
 //find trait by id
@@ -31,7 +27,7 @@ router.get("/:id", (req, res) => {
 });
 
 //create traits
-router.post("/", (req, res) => {
+router.post("/add", (req, res) => {
   Traits.create(req.body)
     .then((trait) => res.redirect("/traits"))
     .catch(console.error);

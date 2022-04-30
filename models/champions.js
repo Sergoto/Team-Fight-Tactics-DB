@@ -6,7 +6,12 @@ const ChampionSchema = new mongoose.Schema({
     origins: [String],
     classes: [String],
     img: String,
+    img2: String,
+    bio: String,
+    ability: [String],
 });
+
+ChampionSchema.index({ name: 'text', description: 'text' });
 
 const Champions = mongoose.model("Champions", ChampionSchema)
 

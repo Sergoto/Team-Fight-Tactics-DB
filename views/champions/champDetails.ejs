@@ -1,0 +1,32 @@
+<link rel="stylesheet" type="text/css" href="/public/css/style.css">
+
+    <div>
+        <div class="champ-bg"><img class="mw-100" src="<%=champ.img2 %>"  /></div>
+    </div>
+    <div class="container">
+    <h1><%=champ.name %></h1>
+    <br>
+        <!-- <div class="font">Champion Origin:</div> -->
+        <div> <%=champ.bio %>
+        <br>
+        <br>
+        <br>
+        <div class="font">Champion Class:</div> <div><%=champ.classes %></div>
+                
+        <br>
+        </div>
+</div>
+<div>
+    <h3 class="font">Ability:</h3>
+</div>
+<div>
+<% champ.ability.forEach(item=> { %>
+    <div>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+                <%=item %>
+            </li>
+        </ul>
+    </div>
+    <% }) %>
+</div>

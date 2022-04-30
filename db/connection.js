@@ -3,7 +3,9 @@ const mongoose = require("mongoose");
 const mongoURI =
   process.env.NODE_ENV === "production"
     ? process.env.DB_URL
-    : process.env.DEV_DB_URL
+    // : process.env.DEV_DB_URL
+    :"mongodb+srv://GAUser1:GAUser1@cluster0.zandg.mongodb.net/TFT-DB?retryWrites=true&w=majority"
+    
 
 mongoose
   .connect(mongoURI)

@@ -4,203 +4,422 @@
     "cost": 4,
     "origins": ["Syndicate"],
     "classes": ["Arcanist"],
-    "img": "https://i.imgur.com/x7iDoa6.jpg"
+    "img": "https://i.imgur.com/x7iDoa6.jpg",
+    "img2": "https://i.imgur.com/0MYxILM.jpg",
+    "bio": "Innately connected to the magic of the spirit realm, Ahri Ahri is a mysterious fox-like vastaya in search of her place in the world. Having become a somewhat reluctant and empathetic predator since entering mortal society, she prefers to manipulate her prey's emotions before partaking of their life essence life essence—receiving flashes of memory and insight from each soul she consumes.",
+    "ability": [
+      "Orbs of Deception: Ahri fires an orb in a line, dealing magic damage to all enemies it passes through on the way out and the way back. Ahri fires additional orb(s) for each time she has cast this combat. Enemies already hit by an orb now take 60% damage for each subsequent orb.",
+      "Damage: 135/200/450",
+      "Additional Orbs: 1/1/2"
+    ]
   },
   {
     "name": "Alistar",
     "cost": 4,
     "origins": ["Hextech"],
     "classes": ["Colossus"],
-    "img": "https://i.imgur.com/QF1QUXH.jpg"
+    "img": "https://i.imgur.com/QF1QUXH.jpg",
+    "img2": "https://i.imgur.com/RnA7Xw9.jpg",
+    "bio": "Always a mighty warrior with a fearsome reputation, Alistar Alistar seeks revenge for the death of his clan at the hands of the Noxus Crest icon.png Noxian empire. Though he was enslaved and forced into the life of a gladiator, his unbreakable will unbreakable will was what kept him from truly becoming a beast. Now, free of the chains of his former masters, he fights in the name of the downtrodden and the disadvantaged, his rage as much a weapon as his horns, hooves and fists.",
+    "ability": [
+      "Pulverize: Alistar charges through the enemy team, dealing magic damage, knocking them back, and stunning them. He then taunts nearby enemies.",
+      "Damage: 150/250/1000",
+      "Stun: 2/2.5/8"
+    ]
   },
   {
     "name": "Ashe",
     "cost": 2,
     "origins": ["Syndicate"],
     "classes": ["Sniper"],
-    "img": "https://i.imgur.com/E6vYngS.jpg"
+    "img": "https://i.imgur.com/E6vYngS.jpg",
+    "img2": "https://i.imgur.com/whEwVIA.jpg",
+    "bio": "Iceborn warmother of the Freljord Avarosan.png Avarosan tribe, Ashe Ashe commands the most populous horde in the north. Stoic, intelligent, and idealistic, yet uncomfortable with her role as leader, she taps into the ancestral magics of her lineage to wield a bow of True Ice. With her people's belief that she is the mythological hero Avarosa reincarnated, Ashe hopes to unify the Freljord once more by retaking their ancient, tribal lands.",
+    "ability": [
+      "Volley: Ashe fires a volley of arrows centered on her target, dealing 110% of her Attack Damage as physical damage per arrow and slowing their Attack Speed by 20% for 3 seconds.",
+      "Arrows: 8"
+    ]
   },
   {
     "name": "Blitzcrank",
     "cost": 2,
     "origins": ["Scrap"],
     "classes": ["Bodyguard"],
-    "img": "https://i.imgur.com/7uOlYa4.jpg"
+    "img": "https://i.imgur.com/7uOlYa4.jpg",
+    "img2": "https://i.imgur.com/P5t7TJ3.jpg",
+    "bio": "A behemoth of burnished metal, steam, and crackling electricity, Blitzcrank Blitzcrank walks the streets of Zaun Crest icon.png Zaun in a tireless effort to improve the undercity and give aid to those in need. Created to descend into the most caustic and dangerous of environments in Zaun to dispose of harmful waste, they have evolved beyond the bounds of their original programming, thanks to the genius of their inventor, and the mysterious power of hextech.",
+    "ability": [
+      "Rocket Grab: Blitzcrank pulls the farthest enemy, dealing magic damage and stunning them for 1.5 seconds. His next attack after pulling knocks up for 1 second. Allies within range prefer attacking Blitzcrank's target.",
+      "Damage: 150/300/900"
+    ]
   },
   {
     "name": "Braum",
     "cost": 4,
     "origins": ["Syndicate"],
     "classes": ["Bodyguard"],
-    "img": "https://i.imgur.com/xLbtIhz.jpg"
+    "img": "https://i.imgur.com/xLbtIhz.jpg",
+    "img2": "https://i.imgur.com/DHKxmIu.jpg",
+    "bio": "Blessed with massive biceps and an even bigger heart, Braum Braum is a beloved Iceborn hero of the Freljord Crest icon.png Freljord. Every mead hall north of Frostheld toasts his legendary strength and tells tales of how he felled a forest of oaks in a single night, and punched an entire mountain into rubble. With his shield, an enchanted vault door vault door forged in ages past, Braum roams the frozen north as a cheerful protector, helping the vulnerable as he works toward his dream of a peaceful Freljord.",
+    "ability": [
+      "Vault Breaker: Braum slams his vault door into the ground, creating a fissure towards his target. Enemies within 2 hexes of Braum, and those struck by the fissure, are stunned and take magic damage.",
+      "Stun: 2/2.75/8",
+      "Damage: 100/200/750"
+    ]
   },
   {
     "name": "Brand",
     "cost": 1,
     "origins": ["Debonair"],
     "classes": ["Arcanist"],
-    "img": "https://i.imgur.com/yTJa8cc.jpg"
+    "img": "https://i.imgur.com/yTJa8cc.jpg",
+    "img2": "https://i.imgur.com/ksmCVFx.jpg",
+    "bio": "Once a tribesman of the icy Freljord named Kegan Rodhe, the creature known as Brand Brand is a lesson in the temptation of greater power. Seeking one of the legendary World Runes, Kegan betrayed his companions and seized it for himself—and, in an instant, the man was no more. His soul burned away, his body a vessel of living flame, Brand now roams Valoran in search of other Runes, swearing revenge for wrongs he could never possibly have suffered in a dozen mortal lifetimes.",
+    "ability": [
+      "Sear: Brand launches a fireball at the nearest enemy, lighting them ablaze for 4 seconds and dealing magic damage. If the enemy is already on fire, they take bonus magic damage which stuns them. VIP Bonus: Fires a 2nd fireball at a different nearby target (prioritizes ablaze enemies) dealing 45% reduced damage.",
+      "Damage: 135/175/235",
+
+      "Bonus Damage: 165/225/300",
+
+      "Stun: 1/1.5/2"
+    ]
   },
   {
     "name": "Caitlyn",
     "cost": 1,
     "origins": ["Enforcer"],
     "classes": ["Sniper"],
-    "img": "https://i.imgur.com/Htchuw1.jpg"
+    "img": "https://i.imgur.com/Htchuw1.jpg",
+    "img2": "https://i.imgur.com/rpzKgma.jpg",
+    "bio": "Renowned as its finest peacekeeper, Caitlyn Caitlyn is also Piltover Crest icon.png Piltover’s best shot at ridding the city of its elusive criminal elements. She is often paired with Vi Vi, acting as a cool counterpoint to her partner’s more impetuous nature. Even though she carries a one-of-a-kind hextech rifle, Caitlyn’s most powerful weapon is her superior intellect, allowing her to lay elaborate traps for any lawbreakers foolish enough to operate in the City of Progress.",
+    "ability": [
+      "Ace in the Hole: Caitlyn takes aim at the farthest enemy, firing a deadly bullet towards them that deals magic damage to the first enemy it hits.",
+      "Damage: 800/1200/2000"
+    ]
   },
   {
     "name": "Corki",
     "cost": 2,
     "origins": ["Yordle"],
     "classes": ["Twinshot"],
-    "img": "https://i.imgur.com/BEXpJ4U.jpg"
+    "img": "https://i.imgur.com/BEXpJ4U.jpg",
+    "img2": "https://i.imgur.com/1pNBKDo.jpg",
+    "bio": "The yordle pilot Corki loves two things above all others: flying, and his glamorous mustache... though not necessarily in that order. After leaving Bandle City, he settled in Piltover and fell in love with the wondrous machines he found there. He dedicated himself to the development of flying contraptions, leading an aerial defense force of seasoned veterans known as the Screaming Yipsnakes. Calm under fire, Corki patrols the skies around his adopted home, and has never encountered a problem that a good missile barrage couldn't solve.",
+    "ability": [
+      "Bombardment: Corki fires a missile at his target that explodes on impact, dealing magic damage to nearby enemies.",
+      "Damage: 180/220/290"
+    ]
   },
   {
     "name": "Camille",
     "cost": 1,
     "origins": ["Clockwork"],
     "classes": ["Challenger"],
-    "img": "https://i.imgur.com/pW1rzPX.jpg"
+    "img": "https://i.imgur.com/pW1rzPX.jpg",
+    "img2": "https://i.imgur.com/8ukd7LC.jpg",
+    "bio": "Weaponized to operate outside the boundaries of the law, Camille Camille is the Principal Intelligencer of Ferros Clan Crest icon.png Clan Ferros—an elegant and elite agent who ensures the Piltover Crest icon.png Piltover machine and its Zaun Crest icon.png Zaunite underbelly runs smoothly. Adaptable and precise, she views sloppy technique as an embarrassment that must be put to order. With a mind as sharp as the blades she bears, Camille's pursuit of superiority through hextech body augmentation has left many to wonder if she is now more machine than woman.",
+    "ability": [
+      "Defensive Sweep: Camille gains a shield blocking damage over 4 seconds, then sweeps her leg, dealing magic damage to enemies in a cone. While this shield holds, Camille's attacks restore 30 Health.",
+      "Shield: 300/400/600",
+
+      "Damage: 150/200/300"
+    ]
   },
   {
     "name": "Chogath",
     "cost": 3,
     "origins": ["Mutant"],
     "classes": ["Bruiser", "Colossus"],
-    "img": "https://i.imgur.com/fsvdEXb.jpg"
+    "img": "https://i.imgur.com/fsvdEXb.jpg",
+    "img2": "https://i.imgur.com/q66Hq69.jpg",
+    "bio": "From the moment Cho'Gath first emerged into the harsh light of Runeterra's sun, the beast was driven by the most pure and insatiable hunger. A perfect expression of the Void's desire to consume all life, Cho'Gath's complex biology quickly converts matter into new bodily growth—increasing its muscle mass and density, or hardening its outer carapace like organic diamond. When growing larger does not suit the Void-spawn's needs, it vomits out the excess material as razor-sharp spines razor-sharp spines, leaving prey skewered and ready to feast feast upon later.",
+    "ability": [
+      "Feast: Cho’Gath devours the lowest Health enemy within range, dealing magic damage. If this kills the target, Cho’Gath gains a stack of Feast, up to. Each stack of Feast grants 2% bonus Health and size permanently.",
+      "Damage: 850/950/1050",
+
+      "Max Stacks: 6/12/999"
+    ]
   },
   {
     "name": "Darius",
     "cost": 1,
     "origins": ["Syndicate"],
     "classes": ["Bodyguard"],
-    "img": "https://i.imgur.com/ZJK6Ejj.jpg"
+    "img": "https://i.imgur.com/ZJK6Ejj.jpg",
+    "img2": "https://i.imgur.com/Lgq0QjR.jpg",
+    "bio": "",
+    "ability": [
+      "Decimate: Darius swings his axe in a circle, dealing magic damage, then heals himself for each enemy hit.",
+      "Damage: 100/150/200",
+
+      "Heal: 50/75/100"
+    ]
   },
   {
     "name": "Ezreal",
     "cost": 1,
     "origins": ["Scrap"],
     "classes": ["Innovator"],
-    "img": "https://i.imgur.com/7PGaskB.jpg"
+    "img": "https://i.imgur.com/7PGaskB.jpg",
+    "img2": "https://i.imgur.com/zdlV7d0.jpg",
+    "bio": "A dashing adventurer, unknowingly gifted in the magical arts, Ezreal Ezreal raids long-lost catacombs, tangles with ancient curses, and overcomes seemingly impossible odds with ease. His courage and bravado knowing no bounds, he prefers to improvise his way out of any situation, relying partially on his wits, but mostly on his mystical Shuriman gauntlet, which he uses to unleash devastating arcane blasts arcane blasts. One thing is for sure—whenever Ezreal is around, trouble isn’t too far behind. Or ahead. Probably everywhere.",
+    "ability": [
+      "Mystic Shot: Ezreal fires a missile at his target, dealing magic damage. If the missile hits, he grants himself 18% bonus stacking Attack Speed, up to 90% at 5 stacks.",
+      "Damage: 125/200/350"
+    ]
   },
   {
     "name": "Illaoi",
     "cost": 1,
     "origins": ["Mercenary"],
     "classes": ["Bruiser"],
-    "img": "https://i.imgur.com/NHKVQu3.jpg"
+    "img": "https://i.imgur.com/NHKVQu3.jpg",
+    "img2": "https://i.imgur.com/0WIYkao.jpg",
+    "bio": "Illaoi's powerful physique is dwarfed only by her indomitable faith. As the prophet of the Great Kraken, she uses a huge, golden idol idol to rip her foes' spirits spirits from their bodies and shatter their perception of reality reality. All who challenge the 'Truth Bearer of Nagakabouros' soon discover Illaoi never battles alone - the god of the Serpent Isles fights by her side.",
+    "ability": [
+      "Harsh Lesson: Illaoi slams her target, linking her soul to it for 5 seconds and dealing magic damage. While linked, Illaoi is healed for a percentage of the damage taken by her target.",
+      "Damage: 175/300/500",
+
+      "Heal: 30/35/40%"
+    ]
   },
   {
     "name": "Jarvan IV",
     "cost": 1,
     "origins": ["Hextech"],
     "classes": ["Striker"],
-    "img": "https://i.imgur.com/HrILnSI.jpg"
+    "img": "https://i.imgur.com/HrILnSI.jpg",
+    "img2": "https://i.imgur.com/pMdYU60.jpg",
+    "bio": "As the king’s only son, Prince Jarvan Prince Jarvan is heir apparent to the throne of Demacia Crest icon.png Demacia. Raised to be a paragon of his nation’s greatest virtues, he is forced to balance the heavy expectations placed upon him with his own desire to prove himself on the battlefield. An exceptional warrior in his own right, Jarvan also inspires his troops with fearsome courage and selfless determination, raising his family’s colors high and revealing his true strength as a future leader of his people.",
+    "ability": [
+      "Ageless Standard: Jarvan calls down his standard to a nearby location, granting all nearby allies bonus Attack Speed for 5 seconds.",
+      "Attack Speed: 40/50/70%"
+    ]
   },
   {
     "name": "Kassadin",
     "cost": 1,
     "origins": ["Mutant"],
     "classes": ["Scholar"],
-    "img": "https://i.imgur.com/kh98F3X.jpg"
+    "img": "https://i.imgur.com/kh98F3X.jpg",
+    "img2": "https://i.imgur.com/7QY96fE.jpg",
+    "bio": "Cutting a burning swath through the darkest places of the world, Kassadin Kassadin knows his days are numbered. Though once a notorious adventurer, he had chosen to live anonymously and raise a family among the nomad tribes of Shurima—until the day his daughter was claimed by the Void. Kassadin vowed to bring her back, combining a number of arcane artifacts and forbidden technologies for the struggle ahead. His precautions were not enough, however, and these devices now only serve to slow the insidious corruption that ravages his body... but he will gladly pay that price, if only he can save her...",
+    "ability": [
+      "Null Sphere: Kassadin fires an orb of void energy at his target, dealing magic damage, applying Mana Reave, and granting Kassadin a shield that reduces incoming damage by 30% for 4 seconds.",
+      "Damage: 200/275/340",
+
+      "Mana Reave: 35/50/65%"
+    ]
   },
   {
     "name": "Nocturne",
     "cost": 1,
     "origins": ["Hextech"],
     "classes": ["Assassin"],
-    "img": "https://i.imgur.com/rW0UxXT.jpg"
+    "img": "https://i.imgur.com/rW0UxXT.jpg",
+    "img2": "https://i.imgur.com/UPP61X8.png",
+    "bio": "A demonic amalgamation drawn from the nightmares that haunt every sentient mind, the thing known as Nocturne Nocturne has become a primordial force of pure terror. It is liquidly chaotic in aspect, a faceless shadow with cold eyes and armed with wicked-looking blades. After freeing itself from the spirit realm, Nocturne now continually descends upon the waking world, to feed on the kind of fear that can only thrive in true darkness.",
+    "ability": [
+      "Unspeakable Horror: Nocturne terrifies his target, stunning them with fear and dealing magic damage over the duration.",
+      "Stun: 2/2.5/3",
+
+      "Damage: 190/300/450"
+    ]
   },
   {
     "name": "Poppy",
     "cost": 1,
     "origins": ["Yordle"],
     "classes": ["Bodyguard"],
-    "img": "https://i.imgur.com/SLVINqg.jpg"
+    "img": "https://i.imgur.com/SLVINqg.jpg",
+    "img2": "https://i.imgur.com/A0tWs0M.jpg",
+    "bio": " Runeterra has no shortage of valiant champions, but few are as tenacious as Poppy Poppy. Bearing the legendary hammer of Orlon, a weapon twice her size, this determined yordle has spent untold years searching in secret for the fabled “Hero of Demacia,” said to be its rightful wielder. Until then, she dutifully charges into battle, pushing back the kingdom's enemies with every whirling strike.",
+    "ability": [
+      "Buckler Toss: Poppy throws her buckler at the farthest enemy, dealing a percent of her Armor as magic damage. The buckler then bounces back, granting Poppy a shield that blocks damage.",
+      "Damage: 200/250/300%",
+
+      "Shield: 250/375/525"
+    ]
   },
   {
     "name": "Singed",
     "cost": 1,
     "origins": ["Chemtech"],
     "classes": ["Innovator"],
-    "img": "https://i.imgur.com/TXqHbA2.jpg"
+    "img": "https://i.imgur.com/TXqHbA2.jpg",
+    "img2": "https://i.imgur.com/WoMM1B9.jpg",
+    "bio": "alchymist of unmatched intellect, who has devoted his life to pushing the boundaries of knowledge—with no price, even his own sanity, too high to pay. Is there a method to his madness? His concoctions rarely fail, but it appears to many that Singed has lost all sense of humanity, leaving a toxic trail of misery and terror in his wake.",
+    "ability": [
+      "Fling: Singed flings a nearby enemy towards the largest cluster of enemies, stunning his target for seconds when they land. All adjacent enemies take magic damage and are briefly stunned.",
+      "Stun: 1.5/2/2.5",
+
+      "Damage: 125/175/250"
+    ]
   },
   {
     "name": "Twitch",
     "cost": 1,
     "origins": ["Chemtech"],
     "classes": ["Assassin"],
-    "img": "https://i.imgur.com/DXNE1Ch.jpg"
+    "img": "https://i.imgur.com/DXNE1Ch.jpg",
+    "img2": "https://i.imgur.com/prt2jn7.jpg",
+    "bio": "A Zaun Crest icon.png Zaunite plague rat by birth, but a connoisseur of filth by passion, Twitch Twitch is not afraid to get his paws dirty. Aiming a chem-powered crossbow at the gilded heart of Piltover Crest icon.png Piltover, he has vowed to show those in the city above just how filthy they really are. Always a sneaky sneak, when he's not rooting around in the Sump, he's digging deep into other people's garbage for discarded treasures… and perhaps a moldy sandwich.",
+    "ability": [
+      "Piercing Bolt: Twitch fires a powerful bolt towards his target that pierces through enemies hit, dealing a percent of his Attack Damage as physical damage and applying 50% Grievous Wounds for 5 seconds.",
+      "Damage: 125%",
+
+      "Base Damage: 30/50/70"
+    ]
   },
   {
     "name": "Lulu",
     "cost": 2,
     "origins": ["Yordle"],
     "classes": ["Enchanter"],
-    "img": "https://i.imgur.com/6PozNly.jpg"
+    "img": "https://i.imgur.com/6PozNly.jpg",
+    "img2": "https://i.imgur.com/u7JktnI.jpg",
+    "bio": "The yordle mage Lulu Lulu is known for conjuring dreamlike illusions and fanciful creatures as she roams Runeterra Crest icon.png Runeterra with her fairy companion Pix. Lulu shapes reality on a whim, warping the fabric of the world, and what she views as the constraints of this mundane, physical realm. While others might consider her magic at best unnatural, and at worst dangerous, she believes everyone could use a touch of enchantment.",
+    "ability": [
+      "Wild Growth: Lulu embiggens low Health allies, granting them bonus Health and knocking up enemies near them. If the ally is already embiggened, they are healed instead.",
+      "Allies: 1/2/3",
+      "Health: 350/370/390"
+    ]
   },
   {
     "name": "Quinn",
     "cost": 2,
     "origins": ["Mercenary"],
     "classes": ["Challenger"],
-    "img": "https://i.imgur.com/DcUUaRx.jpg"
+    "img": "https://i.imgur.com/DcUUaRx.jpg",
+    "img2": "https://i.imgur.com/QrMXCEo.jpg",
+    "bio": "Sponsored by the noble Buvelle family, Quinn Quinn is a 02DE001-full.png ranger-knight of Demacia who undertakes dangerous missions deep in enemy territory. She and her legendary eagle, Valor Valor, share an unbreakable bond, and their foes are often slain before they realize they are fighting not one, but two of the kingdom’s greatest heroes. Nimble and acrobatic, Quinn takes aim with her crossbow while Valor marks their elusive targets from above, making them a deadly pair on the battlefield.",
+    "ability": [
+      "Disarming Assault: Quinn sends Valor out at her target, dealing magic damage to the target and nearby enemies. The main target is disarmed and all nearby enemies have their Attack Damage reduced by for 4 seconds.",
+      "Damage: 200/300/650",
+
+      "AD Reduction: 40/40/80%",
+
+      "Disarm: 1.5/2/2.5"
+    ]
   },
   {
     "name": "RekSai",
     "cost": 2,
     "origins": ["Mutant"],
     "classes": ["Bruiser", "Striker"],
-    "img": "https://i.imgur.com/i5E58zp.jpg"
+    "img": "https://i.imgur.com/i5E58zp.jpg",
+    "img2": "https://i.imgur.com/Yiv5Zuq.jpg",
+    "bio": "An apex predator, Rek'Sai Rek'Sai is a merciless Void Crest icon.png Void-spawn that tunnels beneath the ground to ambush and devour unsuspecting prey. Her insatiable hunger has laid waste to entire regions of the once-great empire of Shurima Crest icon.png Shurima—merchants, traders, even armed caravans, will go hundreds of miles out of their way to avoid her and her offspring's hunting grounds. All know that once Rek'Sai is seen on the horizon, death from below is all but guaranteed.",
+    "ability": [
+      "Furious Bite: Rek’Sai bites her target, dealing 125% of her Attack Damage and bonus damage and healing herself. If Rek’sai has already bit her target, she heals for more.",
+      "Bonus Damage: 100/150/200",
+      "Heal: 200/225/400",
+      "2nd Bite Heal: 275/350/600"
+    ]
   },
   {
     "name": "Sejuani",
     "cost": 2,
     "origins": ["Enforcer", "Hextech"],
     "classes": ["Bruiser"],
-    "img": "https://i.imgur.com/cdkwdRg.jpg"
+    "img": "https://i.imgur.com/cdkwdRg.jpg",
+    "img2": "https://i.imgur.com/4BtxQqz.jpg",
+    "bio": "Sejuani Sejuani is the brutal, unforgiving Iceborn warmother of the Freljord Winters Claw.png Winter's Claw, one of the most feared tribes of the Freljord Crest icon.png Freljord. Her people's survival is a constant, desperate battle against the elements, forcing them to raid Noxus Crest icon.png Noxians, Demacia Crest icon.png Demacians, and Freljord Avarosan.png Avarosans alike to survive the harsh winters. Sejuani herself spearheads the most dangerous of these attacks from the saddle of her drüvask boar Bristle Bristle, using her True Ice flail to freeze and shatter her enemies.",
+    "ability": [
+      "Arctic Assault: Sejuani signals Bristle to charge, dealing magic damage and stunning her target. She then gains Frost Armor, granting her Armor and Magic Resist for 4 seconds.",
+      "Damage: 275/400/650",
+
+      "Stun: 1.5/2/3",
+
+      "Armor / MR: 50/75/125"
+    ]
   },
   {
     "name": "Swain",
     "cost": 2,
     "origins": ["Hextech"],
     "classes": ["Arcanist"],
-    "img": "https://i.imgur.com/7qwZJVD.jpg"
+    "img": "https://i.imgur.com/7qwZJVD.jpg",
+    "img2": "https://i.imgur.com/lBDBnjm.jpg",
+    "bio": "Jericho Swain Jericho Swain is the visionary ruler of Noxus Crest icon.png Noxus, an expansionist nation that reveres only strength. Though he was cast down and crippled in the Ionia Crest icon.png Ionian wars, his left arm severed, he seized control of the empire with ruthless determination...and a new, demonic hand. Now, Swain commands from the front lines, marching against a coming darkness that only he can see—in glimpses gathered by shadowy ravens from the corpses all around him. In a swirl of sacrifice and secrets, the greatest secret of all is that the true enemy lies within.",
+    "ability": [
+      "Death's Hand: Swain unleashes piercing bolts of eldritch power in a cone towards his target, dealing magic damage to enemies within and healing Swain for each enemy hit.",
+      "Damage: 250/350/500",
+      "Heal: 250/300/350"
+    ]
   },
   {
     "name": "Syndra",
     "cost": 2,
     "origins": ["Debonair"],
     "classes": ["Scholar"],
-    "img": "https://i.imgur.com/RJ9T5UW.jpg"
+    "img": "https://i.imgur.com/RJ9T5UW.jpg",
+    "img2": "https://i.imgur.com/eVBQP5o.jpg",
+    "bio": "Syndra Syndra is a fearsome Ionia Crest icon.png Ionian mage with incredible power at her command. As a child, she disturbed the village elders with her reckless and wild magic. She was sent away to be taught greater control, but eventually discovered her supposed mentor was restraining her abilities. Forming her feelings of betrayal and hurt into dark spheres of energy, Syndra has sworn to destroy all who would try to control her.",
+    "ability": [
+      "Force of Will: Syndra flings the nearest enemy towards the farthest enemy, dealing magic damage to all nearby enemies upon impact, and stunning the thrown target. VIP bonus: Force of Will's impact area is larger and knocks up affected enemies for 1.5 seconds.",
+      "Damage: 225/300/425",
+      "Stun: 2/2.5/3"
+    ]
   },
   {
     "name": "Talon",
     "cost": 2,
     "origins": ["Debonair"],
     "classes": ["Assassin"],
-    "img": "https://i.imgur.com/3uRAvX5.jpg"
+    "img": "https://i.imgur.com/3uRAvX5.jpg",
+    "img2": "https://i.imgur.com/p2UMvFp.jpg",
+    "bio": "Talon Talon is the knife in the darkness, a merciless killer able to strike without warning and escape before any alarm is raised. He carved out a dangerous reputation on the brutal streets of Noxus Crest icon.png Noxus, where he was forced to fight, kill, and steal to survive. Adopted by the notorious Du Couteau family, he now plies his deadly trade at the empire's command, assassinating enemy leaders, captains, and heroes… as well as any Noxian foolish enough to earn the scorn of their masters.",
+    "ability": [
+      "Blade's End: Passive: Talon's 1st attack on an enemy causes them to bleed for magic damage over 7 seconds. Every 3rd attack on a target applies an additional bleed. VIP Bonus: Bleed deals true damage and lasts 75% longer.",
+      "Damage: 450/575/800"
+    ]
   },
   {
     "name": "Warwick",
     "cost": 2,
     "origins": ["Chemtech"],
     "classes": ["Challenger"],
-    "img": "https://i.imgur.com/5aOSovN.jpg"
+    "img": "https://i.imgur.com/5aOSovN.jpg",
+    "img2": "https://i.imgur.com/D3UBZkf.jpg",
+    "bio": "Warwick Warwick is a monster who hunts the gray alleys of Zaun Crest icon.png Zaun. Transformed by agonizing experiments, his body is fused with an intricate system of chambers and pumps, machinery filling his veins with alchemical rage. Bursting out of the shadows, he preys upon those criminals who terrorize the city's depths. Warwick is drawn to blood, and driven mad by its scent scent. None who spill it can escape him.",
+    "ability": [
+      "Eternal Hunger: Passive: Warwick's Attacks deal an additional percent of his target's current Health as bonus magic damage, and heal him.",
+      "Damage: 6/9/12%",
+      "Heal: 35/45/65"
+    ]
   },
   {
     "name": "Zilean",
     "cost": 2,
     "origins": ["Clockwork"],
     "classes": ["Innovator"],
-    "img": "https://i.imgur.com/T4HGBDl.jpg"
+    "img": "https://i.imgur.com/T4HGBDl.jpg",
+    "img2": "https://i.imgur.com/KL3PvnZ.jpg",
+    "bio": "Once a member of Void Crest icon.png Icathia's governing council, Zilean Zilean is a prodigious elemental mage who seeks mastery over time itself. After using his powers in an attempt to save his people from the Void Crest icon.png Void, he now drifts through the past, present, and future, bending and warping the flow of time around him. Zilean has traveled from Runeterra Crest icon.png Runeterra's mysterious creation, all the way to its seemingly inevitable ending, searching tirelessly for any strand of fate that might undo his homeland's destruction.",
+    "ability": [
+      "Time Bomb: Zilean places a bomb on the closest enemy, stunning them.When the stun ends, or the target dies, the bomb explodes dealing magic damage to adjacent enemies and applying Attack Speed Slow for 3 seconds.",
+      "Stun: 1.5/2/2.5",
+
+      "Damage: 200/300/450",
+
+      "Attack Speed Slow: 30/40/50%"
+    ]
   },
   {
     "name": "Zyra",
     "cost": 2,
     "origins": ["Syndicate"],
     "classes": ["Scholar"],
-    "img": "https://i.imgur.com/NKDqRx5.jpg"
+    "img": "https://i.imgur.com/NKDqRx5.jpg",
+    "img2": "https://i.imgur.com/2muwKCC.jpg",
+    "bio": "Born in an ancient, sorcerous catastrophe, Zyra Zyra is the wrath of nature given form—an alluring hybrid of plant and human, kindling new life with every step. She views the many mortals of Runeterra Crest icon.png Runeterra as little more than prey for her seeded progeny, and thinks nothing of slaying them with flurries of deadly spines. Though her true purpose has not been revealed, Zyra wanders the world, indulging her most primal urges to colonize, and strangle all other life from it.",
+    "ability": [
+      "Grasping Spines: Zyra summons vines in the row with the most enemies, dealing magic damage and stunning them.",
+      "Damage: 275/375/575",
+
+      "Stun: 1.5/2/2.5"
+    ]
   },
 
   {
@@ -208,209 +427,408 @@
     "cost": 3,
     "origins": ["Mercenary"],
     "classes": ["Twinshot"],
-    "img": "https://i.imgur.com/hukXyeG.jpg"
+    "img": "https://i.imgur.com/hukXyeG.jpg",
+    "img2": "https://i.imgur.com/CKhOkC5.jpg",
+    "bio": "As unpredictable as he is brutal, the dethroned reaver king Gangplank Gangplank is feared far and wide. Once, he ruled the port city of Bilgewater Crest icon.png Bilgewater, and while his reign is over, there are those who believe this has only made him more dangerous. Gangplank would see Bilgewater bathed in blood once more before letting someone else take it—and now with pistol, cutlass, and barrels of gunpowder, he is determined to reclaim what he has lost.",
+    "ability": [
+      "Parrrley: Gangplank shoots his target, dealing a percentage of his Attack Damage and bonus damage. If this kills a champion, Gangplank plunders 1 gold.",
+      "Damage: 225/250/300%",
+
+      "Bonus Damage: 110/160/225"
+    ]
   },
   {
     "name": "Gnar",
     "cost": 3,
     "origins": ["Socialite", "Yordle"],
     "classes": ["Striker"],
-    "img": "https://i.imgur.com/dd2qVnP.jpg"
+    "img": "https://i.imgur.com/dd2qVnP.jpg",
+    "img2": "https://i.imgur.com/73N0rZz.jpg",
+    "bio": "Gnar Gnar is an excitable yordle whose playful antics can erupt into a toddler's outrage in an instant, transforming him into a massive beast bent on destruction. Frozen in True Ice for millennia, the curious creature broke free and now hops about a changed world he sees as exotic and wondrous. Delighted by danger, Gnar flings whatever he can at his enemies, be it his bonetooth boomerang... or an uprooted tree.",
+    "ability": [
+      "GNAR!: Gnar transforms into Mega Gnar for the rest of combat. Mega Gnar throws a boulder at the farthest enemy within boulder range, dealing a percentage of his Attack Damage plus bonus damage as physical damage to all enemies it passes through.While in Mega Gnar form, Gnar is melee, gains Health, and his mana costs are reduced by 20.",
+      "Base Damage: 175%",
+
+      "Bonus Damage: 150/200/300",
+
+      "Health: 500/750/1200"
+    ]
   },
   {
     "name": "Leona",
     "cost": 3,
     "origins": ["Debonair"],
     "classes": ["Bodyguard"],
-    "img": "https://i.imgur.com/CjWbwpM.jpg"
+    "img": "https://i.imgur.com/CjWbwpM.jpg",
+    "img2": "https://i.imgur.com/3knH3uh.jpg",
+    "bio": "Imbued with the fire of the sun, Leona Leona is a warrior templar of the 03MT082-full.png Solari who defends Targon Crest icon.png Mount Targon with her Zenith Blade Zenith Blade and Shield of Daybreak Shield of Daybreak. Her skin shimmers with starfire while her eyes burn with the power of the celestial Aspect within her. Armored in gold and bearing a terrible burden of ancient knowledge, Leona brings enlightenment to some, death to others.",
+    "ability": [
+      "Solar Eclipse: Leona calls down a beacon of light, granting herself shield for 4 seconds. Leona and allies within 2 hexes gain Armor and Magic Resistance for the same duration. VIP Bonus: Heals for 0.8% of max HP for each enemy targeting her.",
+      "Shield: 500/800/1300",
+
+      "Armor / MR: 30/50/80"
+    ]
   },
   {
     "name": "Lucian",
     "cost": 3,
     "origins": ["Hextech"],
     "classes": ["Twinshot"],
-    "img": "https://i.imgur.com/dQpQrYl.jpg"
+    "img": "https://i.imgur.com/dQpQrYl.jpg",
+    "img2": "https://i.imgur.com/d7TmxTJ.jpg",
+    "bio": "Lucian Lucian, a Sentinel of Light, is a grim hunter of undying spirits, pursuing them relentlessly and annihilating them with his twin relic pistols. After the wraith Thresh Thresh slew his wife his wife, Lucian embarked on the path of vengeance—but even with her return to life, his rage is undiminished. Merciless and single-minded, Lucian will stop at nothing to protect the living from the long-dead horrors of the Black Mist.",
+    "ability": [
+      "Relentless Pursuit: Lucian dashes away from his current target and fires shots at nearby enemies that deal magic damage.",
+      "Shots: 2/2/3",
+
+      "Damage: 170/260/295"
+    ]
   },
   {
     "name": "Malzahar",
     "cost": 3,
     "origins": ["Mutant"],
     "classes": ["Arcanist"],
-    "img": "https://i.imgur.com/X0pCsz4.jpg"
+    "img": "https://i.imgur.com/X0pCsz4.jpg",
+    "img2": "https://i.imgur.com/iikX9PQ.jpg",
+    "bio": "A religious zealot dedicated to the unification of all life, Malzahar Malzahar truly believes the newly emergent Void Crest icon.png Void to be the gateway to Runeterra's salvation. In the desert wastes of Shurima Crest icon.png Shurima, he opened his mind to the universe, and the whispers that answered led him to Icathia. Amidst the ruins of that land, he gazed into the dark heart of the Void itself—and Malzahar emerged changed, a shepherd empowered to bring others into the fold… or to release the voidling creatures that dwell beneath.",
+    "ability": [
+      "Malefic Visions: Malzahar infects the mind of the closest unafflicted target, dealing magic damage over 8 seconds and applying 40% Magic Resistance shred for the duration. If an afflicted target dies, Malefic Visions spreads to the nearest unafflicted targets with the remaining duration.",
+      "Damage: 650/900/1025",
+
+      "Spread: 1/1/2"
+    ]
   },
   {
     "name": "Miss Fortune",
     "cost": 3,
     "origins": ["Mercenary"],
     "classes": ["Sniper"],
-    "img": "https://i.imgur.com/ifef8iq.jpg"
+    "img": "https://i.imgur.com/ifef8iq.jpg",
+    "img2": "https://i.imgur.com/uTo2l7r.jpg",
+    "bio": "A Bilgewater Crest icon.png Bilgewater captain famed for her looks but feared for her ruthlessness, Sarah Fortune Sarah Fortune paints a stark figure among the hardened criminals of the port city. As a child, she witnessed the reaver king Gangplank Gangplank murder her family—an act she brutally avenged years later, blowing up his flagship while he was still aboard. Those who underestimate her will face a beguiling and unpredictable opponent... and, likely, a bullet or two in their guts.",
+    "ability": [
+      "Make it Rain: Miss Fortune rains 4 waves of bullets down around a random enemy, dealing magic damage to enemies in the area and reducing their incoming healing by 50% for 6 seconds.",
+      "Damage: 200/300/450"
+    ]
   },
   {
     "name": "Morgana",
     "cost": 3,
     "origins": ["Syndicate"],
     "classes": ["Enchanter"],
-    "img": "https://i.imgur.com/9ITVfu4.jpg"
+    "img": "https://i.imgur.com/9ITVfu4.jpg",
+    "img2": "https://i.imgur.com/Wltyhqe.jpg",
+    "bio": "Conflicted between her celestial and mortal natures, Morgana Morgana bound her wings to embrace humanity, and inflicts her pain and bitterness upon the dishonest and the corrupt. She rejects laws and traditions she believes are unjust, and fights for truth from the shadows of Demacia Crest icon.png Demacia—even as others seek to repress it—by casting shields and chains of dark fire. More than anything else, Morgana truly believes that even the banished and outcast may one day rise again.",
+    "ability": [
+      "Soul Shackles: Morgana grants herself a shield for 3 seconds and shackles herself to all enemies in a 2 hex radius. She then deals magic damage per second to them, as long as the shield holds.If the shield expires without being broken, all targets are stunned. If the shield is broken, Morgana instead refunds herself 30 mana.",
+      "Shield: 475/575/675",
+
+      "Damage: 80/125/175",
+
+      "Stun: 1.5/2/2.5"
+    ]
   },
   {
     "name": "Senna",
     "cost": 3,
     "origins": ["Socialite"],
     "classes": ["Enchanter"],
-    "img": "https://i.imgur.com/9B9shL3.jpg"
+    "img": "https://i.imgur.com/9B9shL3.jpg",
+    "img2": "https://i.imgur.com/nP2j8Zy.jpg",
+    "bio": "Cursed from childhood to be haunted by the supernatural Black Mist, Senna joined a sacred order known as the Sentinels of Light Crest icon.svg Sentinels of Light, and fiercely fought back—only to be killed: her soul imprisoned in a lantern by the cruel wraith Thresh Thresh. But refusing to lose hope, within the lantern Senna learned to use the Mist, and reemerged to new life, forever changed. Now wielding darkness along with light, Senna seeks to end the Black Mist by turning it against itself—with every blast of her relic weapon, redeeming the souls lost within.",
+    "ability": ["Piercing Darkness: Senna fires a beam in the direction of her target, dealing 150% of her Attack Damage as physical damage to all enemies hit. For each enemy hit, she heals the lowest health ally for 50% of the damage dealt.",
+"Base Damage: 100/140/200"]
   },
   {
     "name": "Tryndamere",
     "cost": 3,
     "origins": ["Chemtech"],
     "classes": ["Challenger"],
-    "img": "https://i.imgur.com/zvkDoKR.jpg"
+    "img": "https://i.imgur.com/zvkDoKR.jpg",
+    "img2": "https://i.imgur.com/z4Jetn0.jpg",
+    "bio": "Fueled by unbridled fury and rage, Tryndamere Tryndamere once carved his way through Freljord Crest icon.png the Freljord, openly challenging the greatest warriors of the north to prepare himself for even darker days ahead. The wrathful barbarian has long sought revenge for the annihilation of his clan, though more recently he has found companionship with Ashe Ashe, the Freljord Avarosan.png Avarosan warmother, and a home with her people. His almost inhuman strength and fortitude is legendary, and has delivered him and his new allies countless victories against the greatest of odds.",
+    "ability": ["Spinning Slash: Tryndamere spins in a line towards the most enemies, dealing 150% of his Attack Damage plus bonus damage to enemies in his path and empowering his next 3 attacks to deal 20% more damage.",
+"Bonus Damage: 70/90/110"]
   },
   {
     "name": "Vex",
     "cost": 3,
     "origins": ["Yordle"],
     "classes": ["Arcanist"],
-    "img": "https://i.imgur.com/nvMZwXK.jpg"
+    "img": "https://i.imgur.com/nvMZwXK.jpg",
+    "img2": "https://i.imgur.com/DhNDNRa.jpg",
+    "bio": "In the black heart of the Shadow Isles, a lone yordle trudges through the spectral fog, content in its murky misery. With an endless supply of teen angst and a powerful shadow in tow, Vex lives in her own self-made slice of gloom, far from the revolting cheer of the “normie” world. Though she lacks ambition, she is quick to strike down color and happiness, stopping all would-be interlopers with her magical malaise.",
+    "ability": ["Personal Space: Vex shields herself against damage over 4 seconds. When the shield expires, it deals magic damage to all enemies within 2 hexes, and additional damage if it wasn't destroyed. If it was destroyed, Personal Space becomes 25% stronger this combat. This effect can stack.",
+"Shield: 500/650/850",
+"Damage: 150/250/350",
+"Bonus Damage: 150/250/350"]
   },
   {
     "name": "Zac",
     "cost": 3,
     "origins": ["Chemtech"],
     "classes": ["Bruiser"],
-    "img": "https://i.imgur.com/GLquF8J.jpg"
+    "img": "https://i.imgur.com/GLquF8J.jpg",
+    "img2": "https://i.imgur.com/5y2tSqQ.jpg",
+    "bio": "Zac Zac is the product of a toxic spill that ran through a chemtech seam and pooled in an isolated cavern deep in Zaun Crest icon.png Zaun's Sump. Despite such humble origins, Zac has grown from primordial ooze into a thinking being who dwells in the city's pipes, occasionally emerging to help those who cannot help themselves or to rebuild the broken infrastructure of Zaun.",
+    "ability": ["Yoink!: Zac stretches his arms up to three hexes to pull the two most distant enemies towards him, dealing magic damage. Zac takes 60% less damage while using this ability.",
+"Damage: 300/400/600"]
   },
   {
     "name": "Draven",
     "cost": 4,
     "origins": ["Debonair"],
     "classes": ["Challenger"],
-    "img": "https://i.imgur.com/Lh0HIYi.jpg"
+    "img": "https://i.imgur.com/Lh0HIYi.jpg",
+    "img2": "https://i.imgur.com/qKwDkfF.jpg",
+    "bio": "In Noxus Crest icon.png Noxus, warriors known as 01NX053-full.png reckoners face one another in arenas where blood is spilled and strength tested—but none has ever been as celebrated as Draven Draven. A former soldier, he found that the crowds uniquely appreciated his flair for the dramatic, not to mention the spray of blood from each of his spinning axes spinning axes. Addicted to the spectacle of his own brash perfection, Draven has sworn to defeat whomever he must to ensure that his name is chanted throughout the empire forever more.",
+    "ability": ["Spinning Axes: Draven starts spinning an axe, empowering his next attack to deal a percentage of his Attack Damage plus bonus physical damage. The axe will return to his original location after striking the target. If Draven catches it, he will empower the axe again. Draven can spin up to 2 axes at a time. Passive: Draven ignores 25% of his target's Armor. VIP Bonus: Draven gains infinite attack range and ignores 25% of his target's Armor.",
+"Base Damage: 170/180/400%",
+"Bonus Damage: 120/150/400"]
   },
   {
     "name": "Irelia",
     "cost": 4,
     "origins": ["Scrap"],
     "classes": ["Striker"],
-    "img": "https://i.imgur.com/ZfqcWK1.jpg"
+    "img": "https://i.imgur.com/ZfqcWK1.jpg",
+    "img2": "https://i.imgur.com/rI7Jrvx.jpg",
+    "bio": "The Noxus Crest icon.png Noxian occupation of Ionia Crest icon.png Ionia produced many heroes, none more unlikely than young Irelia Irelia of Navori. Trained in the ancient dances of her province, she adapted her art for war, using the graceful and carefully practised movements to levitate a host of deadly blades. After proving herself as a fighter, she was thrust into the role of resistance leader and figurehead, and to this day remains dedicated to the preservation of her homeland.",
+    "ability": ["Bladesurge: Irelia dashes to her target, striking them for 180% of her Attack Damage plus bonus damage as physical damage. If this kills the target, she Bladesurges again at the lowest Health enemy.",
+"Bonus Damage: 60/90/550"]
   },
   {
     "name": "Jhin",
     "cost": 4,
     "origins": ["Clockwork"],
     "classes": ["Sniper", "Striker"],
-    "img": "https://i.imgur.com/y79lqwz.jpg"
+    "img": "https://i.imgur.com/y79lqwz.jpg",
+    "img2": "https://i.imgur.com/rrxodzx.jpg",
+    "bio": "Jhin Jhin is a meticulous criminal psychopath who believes murder is art. Once an Ionia Crest icon.png Ionian prisoner, but freed by shadowy elements within Ionia's ruling council, the serial killer now works as their cabal's assassin. Using his gun gun as his paintbrush, Jhin creates works of artistic brutality, horrifying victims and onlookers. He gains a cruel pleasure from putting on his gruesome theater, making him the ideal choice to send the most powerful of messages: terror.",
+    "ability": ["Curtain Call: Jhin transforms his weapon into a powerful sniper rifle for his next 4 shots. Each shot deals a percentage of his Attack Damage as physical damage, reduced by 33% for each target it pierces through. The 4th shot is guaranteed to critically strike, and deals 44% more damage based on his target's missing Health. Passive: Jhin always attacks .9/.9/1.4 times per second. He converts each 1% of bonus Attack Speed into .8 Attack Damage.",
+"Base Damage: 175/200/300%"]
   },
   {
     "name": "Khazix",
     "cost": 4,
     "origins": ["Mutant"],
     "classes": ["Assassin"],
-    "img": "https://i.imgur.com/jkUak4p.jpg"
+    "img": "https://i.imgur.com/jkUak4p.jpg",
+    "img2": "https://i.imgur.com/W2ERPXB.jpg",
+    "bio": "The Void grows, and the Void adapts—in none of its myriad spawn are these truths more apparent than Kha'Zix Kha'Zix. Evolution drives the core of this mutating horror, born to survive and to slay the strong. Where it struggles to do so, it grows new, more effective ways to counter and kill its prey. Initially a mindless beast, Kha'Zix's intelligence has developed as much as its form. Now, the creature plans out its hunts, and even utilizes the visceral terror it engenders in its victims.",
+    "ability": ["Void Assault: Kha'Zix leaps towards the lowest Health enemy, striking them for a percentage of his Attack Damage plus Bonus Damage and increasing their maximum Mana by 50% until they cast.",
+"Base Damage: 180/185/260%",
+
+"Bonus Damage: 175/225/500"]
   },
   {
     "name": "Orianna",
     "cost": 4,
     "origins": ["Clockwork"],
     "classes": ["Enchanter"],
-    "img": "https://i.imgur.com/Wt9Kz9h.jpg"
+    "img": "https://i.imgur.com/Wt9Kz9h.jpg",
+    "img2": "https://i.imgur.com/77o3KnR.jpg",
+    "bio": "Once a curious girl of flesh and blood, Orianna Orianna is now a technological marvel comprised entirely of clockwork. She became gravely ill after an accident in the lower districts of Zaun Crest icon.png Zaun, and her failing body had to be replaced with exquisite artifice, piece by piece. Accompanied by the extraordinary brass orb that houses her hextech heart, Orianna is now free to explore the wonders of Piltover Crest icon.png Piltover, and beyond.",
+    "ability": ["Command: Shockwave: Orianna sends out her ball towards the largest group of champions, then commands it to release a shockwave. Allies within two hexes gain a shield for 4 seconds, while enemies within the area are briefly knocked up and dealt magic damage. Enemies adjacent to the ball are drawn in, stunning them.",
+"Shield: 120/170/600",
+
+"Damage: 300/450/1200",
+
+"Stun: 1.5/1.5/5" ]
   },
   {
     "name": "Renata Glasc",
     "cost": 4,
     "origins": ["Chemtech"],
     "classes": ["Scholar"],
-    "img": "https://i.imgur.com/XLJ1Gnz.jpg"
+    "img": "https://i.imgur.com/XLJ1Gnz.jpg",
+    "img2": "https://i.imgur.com/7KWS9tA.jpg",
+    "bio": "Renata Glasc rose from the ashes of her childhood home with nothing but her name and her parents’ alchemical research. In the decades since, she has become Zaun Crest icon.png Zaun’s wealthiest chem-baron, a business magnate who built her power by tying everyone’s interests to her own. Work with her, and be rewarded beyond measure. Work against her, and live to regret it. But everyone comes to her side, eventually.",
+    "ability": ["Toxic Wave: Renata unleashes a toxic wave towards the largest group of nearby enemies, poisoning all enemies in its path for 15 seconds. Poisoned enemies suffer 20% reduced Attack Speed and take magic damage per second. Damage dealt by the poison can stack.",
+"Damage: 40/65/240"]
   },
   {
     "name": "Seraphine",
     "cost": 4,
     "origins": ["Socialite"],
     "classes": ["Innovator"],
-    "img": "https://i.imgur.com/gvkzYPX.jpg"
+    "img": "https://i.imgur.com/gvkzYPX.jpg",
+    "img2": "https://i.imgur.com/cweoX3B.jpg",
+    "bio": "Born in Piltover Crest icon.png Piltover to Zaun Crest icon.png Zaunite parents, Seraphine can hear the souls of others—the world sings to her, and she sings back. Though these sounds overwhelmed her in her youth, she now draws on them for inspiration, turning the chaos into a symphony. She performs for the sister cities to remind their citizens that they’re not alone, that they’re stronger together, and that, in her eyes, their potential is limitless.",
+    "ability": ["Encore: Seraphine projects her song towards the largest group of enemy units, dealing magic damage to enemies. Allies it passes through are healed and gain bonus Attack Speed for 4 seconds.",
+"Damage: 250/400/1200",
+
+"Heal: 200/300/1000",
+
+"Attack Speed: 30/45/100%"]
   },
   {
     "name": "Sivir",
     "cost": 4,
     "origins": ["Hextech"],
     "classes": ["Striker"],
-    "img": "https://i.imgur.com/PNCbql2.jpg"
+    "img": "https://i.imgur.com/PNCbql2.jpg",
+    "img2": "https://i.imgur.com/NKZFrAO.jpg",
+    "bio": "Sivir Sivir is a renowned fortune hunter and mercenary captain who plies her trade in the deserts of Shurima Crest icon.png Shurima. Armed with her legendary jeweled crossblade crossblade, she has fought and won countless battles for those who can afford her exorbitant price. Known for her fearless resolve and endless ambition, she prides herself on recovering buried treasures from the perilous tombs of Shurima - for a generous bounty. With Azir OriginalSquare.png Xerath OriginalSquare.png ancient forces stirring the very bones of Shurima, Sivir finds herself torn between conflicting destinies.",
+    "ability": ["On the Hunt: For the next 5 seconds, Sivir grants herself bonus Attack Speed and her attacks bounce, dealing 30% of her Attack Damage to enemies hit.",
+"Attack Speed: 45/65/250%",
+
+"Bounces: 4/5/9"]
   },
   {
     "name": "Galio",
     "cost": 5,
     "origins": ["Socialite"],
     "classes": ["Bodyguard", "Colossus"],
-    "img": "https://i.imgur.com/P0XTFyx.jpg"
+    "img": "https://i.imgur.com/P0XTFyx.jpg",
+    "img2": "https://i.imgur.com/Sp4KMKu.jpg",
+    "bio": "Outside the Great City of Demacia, the stone colossus Galio Galio keeps vigilant watch. Built as a bulwark against enemy mages, he often stands motionless for decades until the presence of powerful magic stirs him to life. Once activated, Galio makes the most of his time, savoring the thrill of a fight and the rare honor of defending his countrymen. But his triumphs are always bittersweet, for the magic he destroys is also his source of reanimation, and each victory leaves him dormant once again.",
+    "ability": ["Colossal Entrance: Galio becomes invulnerable and leaps into the sky before crashing down on the largest group of enemies. Enemies within a large radius take magic damage and are knocked into the sky. The lower the enemy’s maximum Health is compared to Galio’s, the further they are knocked up. Passive: Galio’s critical strikes slam the ground, dealing bonus magic damage to enemies around his target.",
+"Damage: 125/175/9001",
+
+"Passive Damage: 100/150/500",
+
+"Stun: 1.5/1.5/10"]
   },
   {
     "name": "Jayce",
     "cost": 5,
     "origins": ["Enforcer"],
     "classes": ["Innovator", "Transformer"],
-    "img": "https://i.imgur.com/gHCQ9tt.jpg"
+    "img": "https://i.imgur.com/gHCQ9tt.jpg",
+    "img2": "https://i.imgur.com/8onFv35.jpg",
+    "bio": "Jayce Jayce is a brilliant inventor who has pledged his life to the defense of Piltover Crest icon.png Piltover and its unyielding pursuit of progress. With his transforming hextech hammer hammer in hand, Jayce uses his strength, courage, and considerable intelligence to protect his hometown. While revered throughout the city as a hero, he hasn't taken well to the attention it brings. Still, Jayce's heart is in the right place, and even those who envy his natural skills are grateful for his protection in the City of Progress.",
+    "ability": ["Mercury Cannon/Mercury Hammer: Melee form: Jayce slams his hammer down onto nearby enemies, dealing damage and reducing their Armor and Magic Resist. Ranged form: Jayce deploys an acceleration gate, granting bonus Attack Speed to allies in the same row, then fires an orb of electricity at the largest enemy group.",
+"Ranged AD Bonus: 45/60/500",
+
+"Ranged Spell AD: 170/175/500%",
+
+"Melee Spell AD: 170/180/1000%",
+
+"Melee Bonus Armor / MR: 40",
+
+"Melee Shield: 375/550/3000"]
   },
   {
     "name": "Jinx",
     "cost": 5,
     "origins": ["Rival", "Scrap"],
     "classes": ["Twinshot"],
-    "img": "https://i.imgur.com/fK1XE5q.jpg"
+    "img": "https://i.imgur.com/fK1XE5q.jpg",
+    "img2": "https://i.imgur.com/TnAj96D.jpg",
+    "bio": "A manic and impulsive criminal from Zaun Crest icon.png Zaun, Jinx Jinx lives to wreak havoc without care for the consequences. With an arsenal of deadly weapons, she unleashes the loudest blasts and brightest explosions to leave a trail of mayhem and panic in her wake. Jinx despises boredom and gleefully brings her own chaotic brand of pandemonium wherever she goes.",
+    "ability":["Super Mega Death Rocket: Jinx rides her rocket high into the sky, then comes crashing down near the center-most enemy, dealing magic damage to enemies around the epicenter, and 50% to all other enemies in a large area. The epicenter burns every unit except Jinx for 5 seconds, dealing a percent of the target's maximum Health as true damage, and reducing healing for the duration. She then swaps to her rocket launcher and targets random units for the rest of combat. Her attacks now explode, dealing a percent of her Attack Damage in a small area around her target.",
+"Magic Damage: 400/600/3000",
+
+"Burn: 2/2.5/3%",
+
+"Rocket Launcher AD: 210/220/888%"]
   },
   {
     "name": "Kaisa",
     "cost": 5,
     "origins": ["Mutant"],
     "classes": ["Challenger"],
-    "img": "https://i.imgur.com/oiDeQaF.jpg"
+    "img": "https://i.imgur.com/oiDeQaF.jpg",
+    "img2": "https://i.imgur.com/fEqxVoe.jpg",
+    "bio": "Claimed by Void Crest icon.png the Void when she was only a child, Kai'Sa Kai'Sa managed to survive through sheer tenacity and strength of will. Her experiences have made her a deadly hunter and, to some, the harbinger of a future they would rather not live to see. Having entered into an uneasy symbiosis with a living Void carapace, the time will soon come when she must decide whether to forgive those mortals who would call her a monster, and defeat the coming darkness together... or simply to forget, as the Void consumes the world that left her behind.",
+    "ability":["Icathian Monsoon: Kai’sa dashes to the hex furthest from all enemies. She then fires a volley of missiles spread evenly among all enemies that deal magic damage. Kai'Sa fires a bonus missile for each time she has attacked this combat.",
+"Missiles: 14/18/40",
+
+"Damage: 75/100/180"]
   },
   {
     "name": "Silco",
     "cost": 5,
     "origins": ["Mastermind"],
     "classes": ["Scholar"],
-    "img": "https://i.imgur.com/HfsHn24.jpg"
+    "img": "https://i.imgur.com/HfsHn24.jpg",
+    "img2": "https://i.imgur.com/XRvfTiV.jpg",
+    "bio": "Silco was a Zaun Crest icon.png Zaunite drug lord and industrialist, and the adoptive father of Jinx Jinx. A tyrannical and megalomaniacal individual, he was a radical supporter of Zaun's independence from Piltover Crest icon.png Piltover and was willing to do just about anything to achieve it.",
+    "ability":["Unstable Concoction: Silco injects an unstable concoction into his lowest Health allies, granting them 100% maximum Health, bonus Attack Speed, and immunity to crowd control for 6/7/10 seconds. When the concoction wears off, unstable units die, dealing magic damage to nearby enemies.",
+"Allies: 1/1/10",
+
+"Attack Speed: 50/125/666%",
+
+"Damage: 250/500/5000"]
   },
   {
     "name": "Tahm Kench",
     "cost": 5,
     "origins": ["Glutton", "Mercenary"],
     "classes": ["Bruiser"],
-    "img": "https://i.imgur.com/B2j0CH0.jpg"
+    "img": "https://i.imgur.com/B2j0CH0.jpg",
+    "img2": "https://i.imgur.com/r8w2Juy.jpg",
+    "bio": "Known by many names throughout history, the demon Tahm Kench Tahm Kench travels the waterways of Runeterra Crest icon.png Runeterra, feeding his insatiable appetite with the misery of others. Though he may appear singularly charming and proud, he swaggers through the physical realm like a vagabond in search of unsuspecting prey. His lashing tongue can stun even a heavily armored warrior from a dozen paces, and to fall into his rumbling belly is to tumble into an abyss from which there is little hope of return.",
+    "ability":["Devour: Tahm Kench devours his target, storing them in his belly for 3 seconds and dealing magic damage damage over the duration. During this time, they are invulnerable to other sources of damage and Tahm Kench takes 40% reduced damage. If they die while inside, Tahm Kench spits out a random item component they were holding, or the cost of the unit in gold. Otherwise, he spits them towards the farthest enemy, briefly stunning targets they impact. Deals 50% damage on CC Immune targets.",
+"Damage: 900/1350/30000"]
   },
   {
     "name": "Veigar",
     "cost": 5,
     "origins": ["Yordle-Lord"],
     "classes": [],
-    "img": "https://i.imgur.com/vIXHyPf.jpg"
+    "img": "https://i.imgur.com/vIXHyPf.jpg",
+    "img2": "https://i.imgur.com/StK5fvG.jpg",
+    "bio": "An enthusiastic yordle sorcerer, Veigar Veigar has embraced powers that few others dare even approach. As a free-spirited inhabitant of Bandle City Crest icon.png Bandle City, he once longed to learn more of the celestial magic practiced by mortals, but his natural curiosity was twisted by imprisonment in the Immortal Bastion. Now a stubborn creature with the dark fury of the stars at his command, Veigar is often underestimated by others—and though he believes himself truly evil, there are some who still question his deeper motivations...",
+    "ability":["Furyhorn Storm: Veigar calls down Furyhorns over a few seconds near random enemies, each dealing magic damage.",
+"Damage: 250/300/777",
+
+"Furyhorns: 20/30/99"]
   },
   {
     "name": "Vi",
     "cost": 4,
     "origins": ["Enforcer", "Rival"],
     "classes": ["Bruiser"],
-    "img": "https://i.imgur.com/Ay3cnbQ.jpg"
+    "img": "https://i.imgur.com/Ay3cnbQ.jpg",
+    "img2": "https://i.imgur.com/xdgsdjw.jpg",
+    "bio": "Once a criminal from the mean streets of Zaun Crest icon.png Zaun, Vi Vi is a hotheaded, impulsive, and fearsome woman with only a very loose respect for authority figures. Growing up all but alone, Vi developed finely honed survival instincts as well as a wickedly abrasive sense of humor. Now working with the Wardens to keep the peace in Piltover Crest icon.png Piltover, she wields mighty hextech gauntlets gauntlets that can punch through walls—and suspects—with equal ease.",
+    "ability":["Piltover Pulverizer: Vi shields herself and deals magic damage to her target and enemies behind it. On her 2nd cast, she also dashes through her target. On her 3rd cast, she instead throws her target into the air and slams them back to the ground, dealing damage in a circle around her target.",
+"Shield: 225/325/850",
+
+"Damage: 125/200/500",
+
+"3rd Cast Damage: 250/350/900"]
   },
   {
     "name": "Viktor",
     "cost": 5,
     "origins": ["Chemtech"],
     "classes": ["Arcanist"],
-    "img": "https://i.imgur.com/sL7QkLy.jpg"
+    "img": "https://i.imgur.com/sL7QkLy.jpg",
+    "img2": "https://i.imgur.com/H9k9Ayy.jpg",
+    "bio": "The herald of a new age of technology, Viktor Viktor has devoted his life to the advancement of humankind. An idealist who seeks to lift the people of Zaun Crest icon.png Zaun to a new level of understanding, he believes that only by embracing a glorious evolution of technology can humanity's full potential be realized. With a body augmented by steel and science, Viktor is zealous in his pursuit of this bright future.",
+    "ability":["Death Rays: Viktor summons multiple singularities to fire death rays that cut across the battlefield in a line, melting through enemies' defenses. Enemies caught in their path take magic damage, have a percent of any remaining shields destroyed, and suffer Armor Shred.",
+"Damage: 300/400/1500",
+
+"Shield: 25/33/100%",
+
+"Armor Shred: 40/50/70%"]
   },
   {
     "name": "Zeri",
     "cost": 5,
     "origins": ["Debonair"],
     "classes": ["Sniper"],
-    "img": "https://i.imgur.com/xIOPkbW.jpg"
+    "img": "https://i.imgur.com/xIOPkbW.jpg",
+    "img2": "https://i.imgur.com/Wzl9vnu.jpg",
+    "bio": "A headstrong, spirited young woman from Zaun’s working-class, Zeri channels her electric magic to charge herself and her custom-crafted gun. Her volatile power mirrors her emotions, its sparks reflecting her lightning-fast approach to life. Deeply compassionate toward others, Zeri carries the love of her family and her home into every fight. Though her eagerness to help can sometimes backfire, Zeri believes one truth to be certain: stand up for your community, and it will stand up with you.",
+    "ability":["Lightning Crash: Zeri charges herself up with electricity for 6 seconds. While electrified, she aims at the farthest enemy, her attacks pierce, and she dashes after every shot. Passive: Zeri's attacks fire bullets, each dealing 18% of her Attack Damage as physical damage plus bonus magic damage to the first unit hit. VIP Bonus: Zeri's Lightning Nova's radius is doubled.",
+"Bullets: 5/5/30",
+
+"Damage: 10/20/40"]
   },
   {
     "name": "Ziggs",
     "cost": 1,
     "origins": ["Scrap", "Yordle"],
     "classes": ["Arcanist"],
-    "img": "https://i.imgur.com/l4FT7rN.jpg"
+    "img": "https://i.imgur.com/l4FT7rN.jpg",
+    "img2": "https://i.imgur.com/yrxhYe6.jpg",
+    "bio": "With a love of big bombs and short fuses, the yordle Ziggs Ziggs is an explosive force of nature. As an inventor's assistant in Piltover Crest icon.png Piltover, he was bored by his predictable life and befriended a mad, blue-haired bomber named Jinx Jinx. After a wild night on the town, Ziggs took her advice and moved to Zaun Crest icon.png Zaun, where he now explores his fascinations more freely, terrorizing the chem-barons and regular citizens alike in his never ending quest to blow stuff up.",
+    "ability":["Mini Inferno Bomb: Ziggs hurls a bomb at his target. After a moderate delay, the bomb lands dealing magic damage to the enemy in the epicenter, and half to adjacent enemies.",
+"Damage: 250/350/475"]
   }
 ]

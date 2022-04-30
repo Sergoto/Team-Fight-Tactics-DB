@@ -1,23 +1,35 @@
 <link rel="stylesheet" type="text/css" href="/public/css/style.css">
 <h1 class="champheader">Team Fight Tactics Champions</h1>
    <div class="container">
-        
-        <% stuff.forEach(v => { %>
+
+
+
+        <% data.forEach(v => { %>
            <div class="cards">
-                <div><img src="<%=v.img %>" height="100" /></div>
+                <div class="icon"><img src="<%=v.img %>" height="100" /></div>
                 <div class="font"><%=v.name %></div>
-                <div>Champion Cost: <%=v.cost %></div>
-                <div>Champion Origin: <%=v.origins %></div>
-                <div>Champion Class: <%=v.classes %> 
+            <br>
+                <div class="font">Champion Cost: <%=v.cost %></div>
+            <br>
+                <div class="font">Champion Origin: <%=v.origins %></div>
+            <br>
+                <div class="font">Champion Class: <%=v.classes %> 
                 <br>
                 <br>
-                <a class="button submit font" href="champions/<%=v.id%>">Edit</a>
+                <div class="font">Neon Nights Set 6.5</div>
+                <br>
+    
+                <br>
+              
+            </div>
+            <div class="cardButtons">
+                <a class="button view font" href="/champions/<%=v.id%>">View</a>
+                <a class="button submit font" href="/champions/edit/<%=v.id%>">Edit</a>
                 <form action="/champions/<%=v.id%>?_method=DELETE" method="POST">
                     <input class="button cancel font" type="submit" value="Delete" />
                 </form>
+            </div>
                 </div>
-                </div>
-           
 
        <% }) %>
 

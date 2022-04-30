@@ -1,21 +1,48 @@
 <link rel="stylesheet" type="text/css" href="/public/css/style.css">
 <h1 class="champheader">Team Fight Tactics Items</h1>
 <div class="container">
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Item Grid Cheat Sheet
+</button>
 
-    <% stuff.forEach(v=> { %>
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <img class="mw-100" src="https://i.imgur.com/lxtaSGt.jpg">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+    <% data.forEach(v=> { %>
         <div class="cards" >
-            <div><img src="<%=v.img %>" height="100" /></div>
+            <div><img class="item-icon" src="<%=v.img %>" height="75" /></div>
             <div class="font">
-                Item Name: <%=v.name %>
-                <div>Item Effect: <%=v.effect %></div>
-               <div>Unique Item: <%=v.isUnique %></div> 
-               <div>Artifact Item: <%=v.isArtifact %>
+                Item: <%=v.name %>
             <br>
             <br>
+                <div class="font">Item Effect: <%=v.effect %></div>
+            <br>
+               <div class="font">Unique - Only One Per Champion: <%=v.isUnique %></div> 
+            <br>
+               <div class="font">Component Item: <%=v.isComponent %>
+            <br>
+            <br>
+            <div class="cardButtons">
             <a class="button submit font" href="items/<%=v.id%>">Edit</a>
             <form action="/items/<%=v.id%>?_method=DELETE" method="POST">
                 <input class="button cancel font" type="submit" value="Delete" />
             </form>
+        </div>
             </div>
             </div>
 

@@ -6,7 +6,7 @@ const ItemsSchema = new mongoose.Schema({
     img: String,
     effect: String,
     isUnique: Boolean,
-    isArtifact: Boolean
+    isComponent: Boolean
 });
 
 const Items = mongoose.model("Items", ItemsSchema)
