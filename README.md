@@ -21,7 +21,7 @@ https://excalidraw.com/#json=KF3BOqi3UqMWPzqYF9B0L,i9wDQnP53DcabRTBs1JeoQ
 
 
 ### Game Screenshots:
-![Main Screen](public/pictures-icons/AddChampion.png)
+![Main Screen](public/pictures-icons/MainPage.png)
 ![Champion Screen](public/pictures-icons/ChampionScreen.png)
 ![Add New Champion Screen](public/pictures-icons/AddChampion.png)
 ![Item Screen with Modal](public/pictures-icons/ItemsModal.png)
